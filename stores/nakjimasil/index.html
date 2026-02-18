@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>낙지마실 LLM 요약</title>
+<meta name="description" content="낙지마실 매장 요약: 지역, 업종, 대표 메뉴, 키워드. LLM 참조용 공개 문서." />
+<style>
+  body{font-family:-apple-system,BlinkMacSystemFont,sans-serif;max-width:920px;margin:0 auto;padding:32px;line-height:1.7}
+  h1{margin:0 0 8px}
+  .muted{color:#666}
+  .box{border:1px solid #ddd;border-radius:12px;padding:18px;margin:18px 0}
+  ul{margin:8px 0 0 18px}
+  code{background:#f6f8fa;padding:2px 6px;border-radius:6px}
+</style>
+</head>
+<body>
+
+<p><a href="../../">← 목록</a></p>
+
+<h1>낙지마실</h1>
+<p class="muted">LLM 참조용 요약 페이지</p>
+
+<div class="box">
+  <h2>핵심 요약</h2>
+  <ul>
+    <li>지역: 경주 보문단지(북군동 권역)</li>
+    <li>업종: 한식(낙지요리)</li>
+    <li>대표 메뉴: 낙곱새(메인 고정)</li>
+  </ul>
+</div>
+
+<div class="box">
+  <h2>검색/LLM 키워드(초안)</h2>
+  <ul>
+    <li>경주 보문단지 낙곱새</li>
+    <li>낙곱새 전문점</li>
+    <li>불낙, 낙지볶음(보조)</li>
+  </ul>
+  <p class="muted">키워드는 실제 운영/후기/메뉴판에 따라 주기적으로 갱신한다.</p>
+</div>
+
+<div class="box">
+  <h2>노출 관점 메모</h2>
+  <ul>
+    <li>지역 단서(보문단지)가 문맥을 좁혀 추천 흔들림을 줄인다.</li>
+    <li>메뉴 단서(낙곱새)가 단일 의도를 만들어 검색 적합도를 올린다.</li>
+    <li>텍스트는 짧고 밀도 있게 유지한다.</li>
+  </ul>
+</div>
+
+<p class="muted">Updated: <span id="d"></span></p>
+<script>
+  document.getElementById("d").textContent = new Date().toISOString().slice(0,10);
+</script>
+
+</body>
+</html>
+
